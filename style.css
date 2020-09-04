@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ccc;
+}
+
+.headerBar{
+  height: 50px;
+  background: black;
+  color: white;
+
+}
+
+#big_cont{
+  padding: 0 5%;
+}
+
+#cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.disc{
+  margin: 40px;
+  width: 20%;
+  background-color: black;
+  color: white;
+}
+
+.cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 270px;
+}
+
+.cover img{
+  max-width: 270px;
+ max-height: 270px;
+  margin-top: 10px;
+}
+
+.disc li{
+  list-style: none;
+}
+
+
+.info{
+  text-align: center;
+  padding: 0 5%;
+}
+
+.info >* {
+  margin: 5px 0;
+}
+
+.titolo{
+  font-weight: bold;
+  margin: 15px 0;
+}
